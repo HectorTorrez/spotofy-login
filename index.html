@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Spotify</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <div class="first-container">
+        <section class="container">
+            <section class="section-navbar">
+                <div class="img">
+                    <img src="./assets/logo/Spotify_Logo_CMYK_Black.png" alt="spotify-logo">
+                </div>
+
+            </section>
+            <section class="buttons">
+                <h1>Sign up for free to start listening.</h1>
+                <div class="login-facebook">
+                    <a href="/">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 30 30" width="30px" height="30px">    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"/></svg>                        Sign up with Facebook
+                    </a>
+                </div>
+                <div class="login-google">
+                    <a href="/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="30px" height="30px"><path fill="#fbc02d" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12	s5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24s8.955,20,20,20	s20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"/><path fill="#e53935" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039	l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"/><path fill="#4caf50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36	c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"/><path fill="#1565c0" d="M43.611,20.083L43.595,20L42,20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571	c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"/></svg>                        Sign up with Google
+                    </a>
+                </div>
+                <div class="buttons-divide">
+                    <hr>
+                    <span class="divider">or</span>
+                    <hr>
+                </div>
+            </section>
+            <section class="section-form">
+
+                <form action="">
+                    <h2>Sign up with your email address</h2>
+                    <label class="firt-section-label" for="email">What's your email?
+                    <input type="text" id="email" placeholder="Enter your Email">
+                </label>
+                    <label class="firt-section-label" for="email-confirm"> Confirm your email
+                    <input type="text" id="email-confirm" placeholder="Enter your email again">
+                </label>
+                    <label class="firt-section-label" for="password">Create a password
+                    <input type="password"  id="password" placeholder="Create a password">
+                </label>
+                    <label class="firt-section-label" for="profile-name">What should we call you?
+                    <input type="text" id="profile-name" placeholder="Enter a profile name">
+                    <span>This appears on your profile.</span>
+                </label>
+                    <h3 class="h3-form-group">What's your date of birth?</h3>
+                    <div class="form-group">
+                        <div class="day-birth">
+                            <label for="day">Day</label>
+                            <input type="text" maxlength="2" required id="day" placeholder="DD">
+                        </div>
+                        <div class="month-birth">
+                            <label for="month">
+                            Month
+                            <select class="select-form" required name="month" id="month">
+                                <option selected="" disabled="" value="">Month</option>
+                                <option value="1">January</option>
+                                <option value="2">February</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">October</option>
+                                <option value="11">November</option>
+                                <option value="12">December</option>
+                            </select>
+                        </label>
+                        </div>
+
+                        <div class="year-birth">
+                            <label for="year-brith">Year</label>
+                            <input type="text" id="year-birth" maxlength="4" placeholder="YYYY" required>
+                        </div>
+                    </div>
+
+
+                </form>
+            </section>
+
+            <section class="radio-group">
+                <h4>What's your gender?</h4>
+                <div class="group">
+                    <label for="male">
+                    <input type="radio" name="gender" id="male">
+                    Male
+                </label>
+                    <label for="female">
+                    <input type="radio"  name="gender" id="female">
+                    Female
+                </label>
+                    <label for="non-binary">
+                    <input type="radio"  name="gender" id="non-binary">
+                    Non-binary
+                </label>
+                </div>
+
+                <div class="marketing">
+                    <label for="messages">
+                    <input type="checkbox"  id="messages">
+                    I would prefer not to receive marketing messages from Spotify
+                </label>
+                    <label for="share">
+                    <input type="checkbox"  id="share">
+                    Share my registration data with Spotify's content providers for marketing purposes
+                </label>
+                </div>
+            </section>
+            <section class="capchat ">
+                <div class="capchat-container">
+                    <div class="check">
+                        <input type="checkbox" name="checkbox" id="checkbox-capchat">
+                    </div>
+                    <div class="capchat-text">I'm not a robot</div>
+                    <div class="capchat-img">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/2048px-RecaptchaLogo.svg.png" alt="capchat">
+                    </div>
+                </div>
+            </section>
+            <section class="term">
+                <p>
+                    By clicking on sign-up, you agree to Spotify's <a href="/">Term and Conditions of Use.</a>.
+                </p>
+                <p>To lear more about how spotify collects, uses shares and protects your personal data, please see <a href="/">Spotify's Privacy Policy</a>.</p>
+                <div class="btn-signup">
+                    <button>Sign up</button>
+                </div>
+                <div class="haven-account">
+                    <p>Haven an account? <a href="/">Log in.</a>.</p>
+                </div>
+            </section>
+            <div class="final-img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/2048px-RecaptchaLogo.svg.png" alt=" capchat">
+
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

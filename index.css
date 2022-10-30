@@ -1,0 +1,346 @@
+:root {
+    --font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.first-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 420px;
+    padding-top: 1rem;
+}
+
+.img img {
+    width: 6rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.buttons h1 {
+    margin: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    font-family: var(--font);
+}
+
+.login-facebook {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.login-facebook a {
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #405A93;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2rem;
+    font-family: var(--font);
+    font-size: 0.9rem;
+    font-stretch: semi-condensed;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-stretch: semi-expanded;
+    width: 100%;
+    height: 3rem;
+    gap: 0.5rem;
+    outline: none;
+}
+
+.login-google {
+    justify-content: center;
+    display: flex;
+    width: auto;
+    width: 100%;
+}
+
+.login-google a {
+    text-decoration: none;
+    border: 0.1rem solid #6A6A6A;
+    color: #6A6A6A;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2rem;
+    font-family: var(--font);
+    font-size: 0.9rem;
+    font-stretch: semi-condensed;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-stretch: semi-expanded;
+    width: 100%;
+    height: 3rem;
+    outline: none;
+    gap: 0.5rem;
+}
+
+.buttons-divide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    width: 320px;
+}
+
+.buttons-divide hr {
+    border: none;
+    flex-grow: 1;
+    border-top: 0.1rem solid #DCDCDC;
+}
+
+.section-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.section-form h2 {
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.4;
+    font-family: var(--font);
+    align-items: center;
+    text-align: center;
+}
+
+.section-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 1.5rem;
+    max-width: 90%;
+    gap: 2rem;
+}
+
+.section-form form .firt-section-label {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.firt-section-label {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    max-width: 420px;
+}
+
+.firt-section-label span {
+    font-weight: normal;
+}
+
+.firt-section-label input {
+    padding: 0.875rem;
+    border: none;
+    box-shadow: 0 0 0 1px #878787;
+    /* border: 0.1rem solid #DCDCDC; */
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+.firt-section-label input::placeholder {
+    font-size: var(--font);
+    font-size: 1rem;
+    text-align: start;
+}
+
+.firt-section-label input:focus {
+    outline: 0px;
+    box-shadow: 0 0 0 1px;
+}
+
+.h3-form-group {
+    font-family: var(--font);
+    text-align: start;
+    padding: 1rem 0;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.form-group div input {
+    width: 90%;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    font-family: var(--font);
+    text-align: center;
+    border: none;
+    box-shadow: 0 0 0 1px #878787;
+}
+
+.form-group div input::placeholder {
+    color: #000;
+}
+
+.select-form {
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    font-family: var(--font);
+    border: none;
+    box-shadow: 0 0 0 1px #878787;
+}
+
+.form-group div label {
+    font-size: 1rem;
+    font-family: var(--font);
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.radio-group h4 {
+    padding: 0.3rem 1.5rem;
+    font-family: var(--font);
+    font-weight: bold;
+}
+
+.group {
+    display: flex;
+    padding: 1rem 1.5rem;
+    font-family: var(--font);
+    font-size: 0.9rem;
+    gap: 1rem;
+}
+
+input[type="radio"] {
+    accent-color: #1ED760;
+    border: 0px;
+}
+
+.marketing {
+    display: flex;
+    padding: 1rem 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+input[type="checkbox"] {
+    accent-color: #1ED760;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+}
+
+.capchat-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 18rem;
+    height: 3rem;
+    background-color: #F9F9F9;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 1rem;
+    font-family: var(--font);
+    color: #878787;
+}
+
+.capchat-img img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.term {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    text-justify: auto;
+    gap: 2rem;
+}
+
+.term p {
+    font-size: 0.7rem;
+    font-family: var(--font);
+}
+
+.term p a {
+    color: #63B999;
+}
+
+.btn-signup button {
+    background-color: #1ED760;
+    border: none;
+    outline: none;
+    color: #000000;
+    padding: 1rem 5rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-family: var(--font);
+    font-weight: bold;
+}
+
+.haven-account p {
+    font-size: 1rem;
+    font-family: var(--font);
+    margin-bottom: 10rem;
+}
+
+.final-img img {
+    width: 4rem;
+    height: 4rem;
+    box-shadow: 0 0 0 1px #e2e2e2;
+}
+
+.final-img img {
+    position: fixed;
+    margin-bottom: 1px;
+    bottom: 0;
+    right: 0;
+}
+
+@media(min-width: 767px) {
+    .first-container {
+        display: flex;
+        justify-content: center;
+    }
+    .section-form h2 {
+        text-align: center;
+        align-items: cen;
+    }
+}
